@@ -1,5 +1,4 @@
 #using the input data from the pyqt5 to login into the system with the client login app to checking with the database 
-from msilib.schema import Class
 import os 
 import sys 
 import csv
