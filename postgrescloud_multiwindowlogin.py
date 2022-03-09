@@ -1384,7 +1384,7 @@ class MainWindow(QtWidgets.QMainWindow):
         p = self.palette()
         p.setColor(self.backgroundRole(), QtCore.Qt.darkGray)
         self.setPalette(p)
-        oImage = QImage("kobuki_new.jpg")
+        oImage = QImage("bg1_new.jpg")
         oImage.scaled(300,200)
         #sImage = oImage.scaled(QSize(300,200))                   # resize Image to widgets size
         palette = QPalette()
